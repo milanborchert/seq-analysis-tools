@@ -2,7 +2,7 @@
 Collection of simple tools to help with data acquisition, data reuse and sequence analysis
 
 # Iterative_SRA_mapper
-Python script to help with efficient and parallelized downloading, conversion, and mapping steps of publicly available RNA-Seq data. Allows users to generate count tables for species, based on a coding sequence (cds) file and ncbi SRA datasets (limited to paired end RNA-Seq data for now). This data can then be used for expression-based analysis, such as global coexpression. Uses multiprocessing, sra-toolkit, and kallisto to efficiently determine and store expression values for organism of interest.  
+Python script to help with efficient and parallelized downloading, conversion, and mapping steps of publicly available RNA-Seq data. Written for Linux. Allows users to generate count tables for species, based on a coding sequence (cds) file and ncbi SRA datasets (limited to paired end RNA-Seq data for now). This data can then be used for expression-based analysis, such as global coexpression. Uses multiprocessing, sra-toolkit, and kallisto to efficiently determine and store expression values for organism of interest.  
 
 options:
 
